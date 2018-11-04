@@ -11,7 +11,7 @@ This app will have features:
 - [ ] user can tap item of the list and navigate to detail of the quake
 
 # 01 : Start
-- We will learn the basic of React 
+We will learn the basic of React 
 - [ ] What is react and how it works
 - [ ] JSX!
 - [ ] Rendering element
