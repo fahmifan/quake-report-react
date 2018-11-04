@@ -1,6 +1,4 @@
-Before you clone this repo, make sure to install [create-react-app](https://www.npmjs.com/package/create-react-app) globally. 
-```js
-npm i -g npm i create-react-app
-```
+Before you clone this repo, make sure :
+- you have installed nodejs >= version 8 
 
 Then clone this repo, `cd` to the cloned repo folder and `npm install`
