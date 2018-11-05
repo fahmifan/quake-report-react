@@ -2,24 +2,34 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const Button = (props) => (
+  <button>{props.btnName} </button>
+)
+
+const Hello = ({color, idx, text}) => {
+  return (
+    <h1 style={{color: color}}>
+      <i>{idx} {text}</i>
+    </h1>
+  )
+}
+
 class App extends Component {
   render() {
+    let hello = []
+    
+    for(let i = 0; i < 10; i++) {
+      if(i%2 == 0) {
+        hello[i] = <Hello color="pink" text="Selamat sore" idx={i}  />
+      } else {
+        hello[i] = <Hello color="blue" text="Selamat sore" idx={i}  />
+      }
+    }
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        { hello }
+        <Button btnName="Click saya!" />
       </div>
     );
   }
