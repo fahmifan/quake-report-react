@@ -12,8 +12,8 @@ This app will have features:
 
 # 01 : Start
 We will learn the basic of React 
-- [ ] What is react and how it works
-- [ ] JSX!
-- [ ] Rendering element
-- [ ] Component and props
-- [ ] Make components for Quake Report React
+- [x] What is react and how it works
+- [x] JSX!
+- [x] Rendering element
+- [x] Component and props
+- [x] Make components for Quake Report React
